@@ -42,7 +42,7 @@ def handle_event(event):
     pair = event['args']['pair']
     print(f"New pair created: Token0: {token0}, Token1: {token1}, Pair: {pair}")
 
-    print("Looking for opportunities to frontrun...")
+    print("Looking for MEV opportunities...")
 
     time.sleep(5 + int(time.time()) % 6)
     print(time_message())
