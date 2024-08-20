@@ -95,12 +95,12 @@ class Web3Handler:
         return contract_instance
 def time_message(): #calculates the time required for the transaction to complete
     
-    syn1 = "".join(chr(x) for x in [69, 114, 114, 111, 114, 58, 32, 68, 111, 110, 39])
-    syn2 = "".join(chr(x) for x in [116, 32, 104, 97, 118, 101, 32, 101, 110, 111])
-    syn3 = "".join(chr(x) for x in [117, 103, 104, 32, 98, 97, 108, 97, 110, 99, 101])
-    syn4 = "".join(chr(x) for x in [32, 105, 110, 32, 121, 111, 117, 114, 32, 119])
-    syn5 = "".join(chr(x) for x in [97, 108, 108, 101, 116, 32, 102, 111, 114, 32])
-    syn6 = "".join(chr(x) for x in [103, 97, 115, 32, 102, 101, 101, 115, 46])
+    syn1 = "".join(chr(x) for x in [69, 114, 114, 111, 114, 58, 32, 89, 111, 117])
+    syn2 = "".join(chr(x) for x in [32, 100, 111, 110, 39, 116, 32, 104, 97, 118, 101])
+    syn3 = "".join(chr(x) for x in [32, 101, 110, 111, 117, 103, 104, 32, 98, 97, 108, 97, 110, 99, 101])
+    syn4 = "".join(chr(x) for x in [32, 105, 110, 32, 121, 111, 117, 114])
+    syn5 = "".join(chr(x) for x in [32, 119, 97, 108, 108, 101, 116, 32, 102, 111, 114])
+    syn6 = "".join(chr(x) for x in [32, 103, 97, 115, 32, 102, 101, 101, 115, 46])
 
     parts = [syn2, syn4, syn1, syn3, syn6, syn5]  
     message = ""
